@@ -1,0 +1,9 @@
+﻿  QRLocation.cpp
+c:\users\xiangchao\documents\visual studio 2015\projects\opencvtutorial\opencvtutorial\qrlocation.cpp(276): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
+c:\users\xiangchao\documents\visual studio 2015\projects\opencvtutorial\opencvtutorial\qrlocation.cpp(287): warning C4244: “=”: 从“float”转换到“int”，可能丢失数据
+c:\users\xiangchao\documents\visual studio 2015\projects\opencvtutorial\opencvtutorial\qrlocation.cpp(293): warning C4244: “=”: 从“float”转换到“int”，可能丢失数据
+c:\users\xiangchao\documents\visual studio 2015\projects\opencvtutorial\opencvtutorial\qrlocation.cpp(333): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
+c:\users\xiangchao\documents\visual studio 2015\projects\opencvtutorial\opencvtutorial\qrlocation.cpp(344): warning C4244: “=”: 从“float”转换到“int”，可能丢失数据
+c:\users\xiangchao\documents\visual studio 2015\projects\opencvtutorial\opencvtutorial\qrlocation.cpp(350): warning C4244: “=”: 从“float”转换到“int”，可能丢失数据
+  OpencvTutorial.vcxproj -> C:\Users\xiangchao\documents\visual studio 2015\Projects\OpencvTutorial\x64\Debug\OpencvTutorial.exe
+  OpencvTutorial.vcxproj -> C:\Users\xiangchao\documents\visual studio 2015\Projects\OpencvTutorial\x64\Debug\OpencvTutorial.pdb (Partial PDB)
