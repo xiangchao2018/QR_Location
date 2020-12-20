@@ -130,19 +130,19 @@ int QRLocation::LeftTopPoint(vector<Point> centerPoints)
 	int16_t minIndex = 0;
 	int16_t multiple = 0;
 	int16_t minMutiple = 10000;
-	multiple = (centerPoints[1].x- centerPoints[0].x)*(centerPoints[2].x - centerPoints[0].x) - (centerPoints[1].y - centerPoints[0].y)*(centerPoints[2].y - centerPoints[0].y);
+	multiple = (centerPoints[1].x- centerPoints[0].x)*(centerPoints[2].x - centerPoints[0].x) + (centerPoints[1].y - centerPoints[0].y)*(centerPoints[2].y - centerPoints[0].y);
 	if (minMutiple>multiple)
 	{
 		minIndex = 0;
 		minMutiple = multiple;
 	}
-	multiple = (centerPoints[2].x - centerPoints[1].x)*(centerPoints[0].x - centerPoints[1].x) - (centerPoints[2].y - centerPoints[1].y)*(centerPoints[0].y - centerPoints[1].y);
+	multiple = (centerPoints[2].x - centerPoints[1].x)*(centerPoints[0].x - centerPoints[1].x) + (centerPoints[2].y - centerPoints[1].y)*(centerPoints[0].y - centerPoints[1].y);
 	if (minMutiple>multiple)
 	{
 		minIndex = 1;
 		minMutiple = multiple;
 	}
-	multiple = (centerPoints[1].x - centerPoints[2].x)*(centerPoints[0].x - centerPoints[2].x) - (centerPoints[0].y - centerPoints[2].y)*(centerPoints[1].y - centerPoints[2].y);
+	multiple = (centerPoints[1].x - centerPoints[2].x)*(centerPoints[0].x - centerPoints[2].x) + (centerPoints[0].y - centerPoints[2].y)*(centerPoints[1].y - centerPoints[2].y);
 	if (minMutiple>multiple)
 	{
 		minIndex = 2;
